@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419667847456",
+    "project_id": "libra-a3bb1",
+    "storage_bucket": "libra-a3bb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419667847456:android:9ed7488aa9794885188f45",
+        "android_client_info": {
+          "package_name": "com.elo.libra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyUtsOKR6iF4NDh7MCc2IFt3BG_pHo8pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
