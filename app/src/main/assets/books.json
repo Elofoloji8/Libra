@@ -1,0 +1,1432 @@
+[
+  {
+    "id": 1,
+    "title": "Suç ve Ceza",
+    "author": "Fyodor Dostoyevski",
+    "genre": "Klasik",
+    "description": "Bir adamın işlediği suç ile vicdanı arasında sıkışmasını anlatan derin bir psikolojik romandır. İnsan ruhunun karanlık yönlerine cesur bir bakış sunar."
+  },
+  {
+    "id": 2,
+    "title": "Savaş ve Barış",
+    "author": "Lev Tolstoy",
+    "genre": "Klasik",
+    "description": "Napolyon savaşları sırasında geçen epik bir başyapıttır. Savaşın topluma ve bireylere etkisini ustalıkla işler."
+  },
+  {
+    "id": 3,
+    "title": "Anna Karenina",
+    "author": "Lev Tolstoy",
+    "genre": "Klasik",
+    "description": "Aşk, tutku ve toplum baskısını konu alan klasik bir romandır. Tolstoy insan ilişkilerini çarpıcı bir derinlikle işler."
+  },
+  {
+    "id": 4,
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "genre": "Klasik",
+    "description": "Gerçekçilik akımının öncü eseridir. Bir kadının toplum ve hayaller arasında sıkışmış yaşamını anlatır."
+  },
+  {
+    "id": 5,
+    "title": "Karamazov Kardeşler",
+    "author": "Fyodor Dostoyevski",
+    "genre": "Klasik",
+    "description": "İnanç, ahlak ve insan doğası üzerine derin sorular içeren bir romandır. Edebiyat tarihinin en güçlü felsefi eserlerinden sayılır."
+  },
+  {
+    "id": 6,
+    "title": "İnsan Ne İle Yaşar",
+    "author": "Lev Tolstoy",
+    "genre": "Klasik",
+    "description": "Tolstoy’un insanın özünü ve sevginin gücünü anlattığı kısa fakat etkileyici bir eserdir. Evrensel mesajlar taşır."
+  },
+  {
+    "id": 7,
+    "title": "Kırmızı ve Siyah",
+    "author": "Stendhal",
+    "genre": "Klasik",
+    "description": "Toplumsal sınıf çatışmaları ve bireyin yükselme arzusunu işler. Fransız edebiyatının en güçlü romanlarından biridir."
+  },
+  {
+    "id": 8,
+    "title": "Budala",
+    "author": "Fyodor Dostoyevski",
+    "genre": "Klasik",
+    "description": "Saf bir insanın yozlaşmış bir toplumda var olma mücadelesini anlatır. Derin psikolojik çözümlemeler içerir."
+  },
+  {
+    "id": 9,
+    "title": "Don Kişot",
+    "author": "Miguel de Cervantes",
+    "genre": "Klasik",
+    "description": "Modern romanın doğuşu kabul edilen bu eser, şövalyelik hayalleri kuran bir adamın komik ve hüzünlü hikâyesini anlatır."
+  },
+  {
+    "id": 10,
+    "title": "Notre Dame'ın Kamburu",
+    "author": "Victor Hugo",
+    "genre": "Klasik",
+    "description": "Orta Çağ Paris'inde geçen bu eser, dışlanmışlık ve aşk temalarını işler. Victor Hugo’nun en etkileyici yapıtlarındandır."
+  },
+
+  {
+    "id": 11,
+    "title": "Vadideki Zambak",
+    "author": "Honoré de Balzac",
+    "genre": "Klasik",
+    "description": "Karşılıksız aşk ve duygusal bağlılık üzerine kurulmuş bir romandır. Fransız edebiyatının önemli eserlerindendir."
+  },
+  {
+    "id": 12,
+    "title": "Körlük",
+    "author": "José Saramago",
+    "genre": "Klasik",
+    "description": "Bir toplumun aniden kör olmasıyla yaşanan çöküşü anlatır. Güçlü bir alegori ve insan doğasının sınırlarını sorgulayan bir eserdir."
+  },
+  {
+    "id": 13,
+    "title": "Simyacı",
+    "author": "Paulo Coelho",
+    "genre": "Klasik",
+    "description": "Kişisel yolculuk ve kader üzerine ilham verici bir roman. Dünya çapında milyonlarca okuyucuya ulaşmıştır."
+  },
+  {
+    "id": 14,
+    "title": "Dönüşüm",
+    "author": "Franz Kafka",
+    "genre": "Klasik",
+    "description": "Bir sabah böceğe dönüşen Gregor Samsa’nın hikâyesi üzerinden yabancılaşmayı işler. Modern edebiyatın temel taşlarındandır."
+  },
+  {
+    "id": 15,
+    "title": "Gazap Üzümleri",
+    "author": "John Steinbeck",
+    "genre": "Klasik",
+    "description": "Amerika’daki Büyük Buhran döneminde bir ailenin hayatta kalma mücadelesini anlatır. Toplumsal eleştirisi güçlüdür."
+  },
+  {
+    "id": 16,
+    "title": "Fareler ve İnsanlar",
+    "author": "John Steinbeck",
+    "genre": "Klasik",
+    "description": "Dostluk ve yalnızlık temalarını işleyen kısa ama çarpıcı bir romandır. Steinbeck’in en bilinen eserlerindendir."
+  },
+  {
+    "id": 17,
+    "title": "İki Şehrin Hikayesi",
+    "author": "Charles Dickens",
+    "genre": "Klasik",
+    "description": "Fransız Devrimi döneminde geçen dramatik bir hikâyedir. Fedakârlık ve adalet kavramlarını işler."
+  },
+  {
+    "id": 18,
+    "title": "Bülbülü Öldürmek",
+    "author": "Harper Lee",
+    "genre": "Klasik",
+    "description": "Irkçılık ve adalet temaları üzerine güçlü bir romandır. Amerikan edebiyatının temel eserlerinden biridir."
+  },
+  {
+    "id": 19,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Klasik",
+    "description": "Bağımsız bir kadın karakterin yaşam mücadelesini anlatır. Aşk ve özgürlük temalarını işler."
+  },
+  {
+    "id": 20,
+    "title": "Uğultulu Tepeler",
+    "author": "Emily Brontë",
+    "genre": "Klasik",
+    "description": "Tutkulu ama yıkıcı bir aşkın hikâyesidir. Gotik atmosferiyle edebiyatın unutulmaz yapıtlarındandır."
+  },
+
+  {
+    "id": 21,
+    "title": "Büyük Umutlar",
+    "author": "Charles Dickens",
+    "genre": "Klasik",
+    "description": "Yetim bir çocuğun zorlu yaşamını anlatır. Dickens’ın en sevilen eserlerinden biridir."
+  },
+  {
+    "id": 22,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "genre": "Klasik",
+    "description": "Gotik korku edebiyatının simge eseridir. Dracula karakteri kültürel bir fenomen hâline gelmiştir."
+  },
+  {
+    "id": 23,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Klasik",
+    "description": "Yaratıcı ile yaratılan arasındaki ilişkiyi sorgulayan öncü bir bilimkurgu klasidir. Modern bilim eleştirileri içerir."
+  },
+  {
+    "id": 24,
+    "title": "Gurur ve Önyargı",
+    "author": "Jane Austen",
+    "genre": "Klasik",
+    "description": "Aşk, aile ve toplum baskısını ele alan klasik bir İngiliz romanıdır. Austen’ın en sevilen eseridir."
+  },
+  {
+    "id": 25,
+    "title": "Küçük Kadınlar",
+    "author": "Louisa May Alcott",
+    "genre": "Klasik",
+    "description": "Dört kız kardeşin büyüme hikâyesini anlatır. Sıcak ve dokunaklı bir aile romanıdır."
+  },
+
+  {
+    "id": 26,
+    "title": "Kırmızı Saçlı Kadın",
+    "author": "Orhan Pamuk",
+    "genre": "Roman",
+    "description": "Baba-oğul ilişkileri ve kader temalarını işleyen çağdaş bir Türk romanıdır. Pamuk’un güçlü anlatımını taşır."
+  },
+  {
+    "id": 27,
+    "title": "Masumiyet Müzesi",
+    "author": "Orhan Pamuk",
+    "genre": "Roman",
+    "description": "Saplantı, aşk ve hatıralar üzerine kurgulanmış derin bir romandır. İstanbul’un ruhunu yansıtır."
+  },
+  {
+    "id": 28,
+    "title": "Serenad",
+    "author": "Zülfü Livaneli",
+    "genre": "Roman",
+    "description": "Tarihi gerçeklerle harmanlanmış dokunaklı bir aşk hikâyesidir. Savaşların insan hayatındaki etkisini ele alır."
+  },
+  {
+    "id": 29,
+    "title": "Leyla'nın Evi",
+    "author": "Zülfü Livaneli",
+    "genre": "Roman",
+    "description": "İstanbul’un değişimi ve bireyin kendini arayışı üzerine etkileyici bir romandır."
+  },
+  {
+    "id": 30,
+    "title": "Aşk",
+    "author": "Elif Şafak",
+    "genre": "Roman",
+    "description": "Mevlana ve Şems ilişkisini modern bir hikâye ile birleştirir. Tasavvuf temalarını işler."
+  },
+
+  {
+    "id": 31,
+    "title": "Baba ve Piç",
+    "author": "Elif Şafak",
+    "genre": "Roman",
+    "description": "Kimlik, aile ve kültür çatışmalarını konu alan çarpıcı bir romandır."
+  },
+  {
+    "id": 32,
+    "title": "Kardeşimin Hikayesi",
+    "author": "Zülfü Livaneli",
+    "genre": "Roman",
+    "description": "Gizem ve aşkın iç içe geçtiği etkileyici bir anlatı sunar."
+  },
+  {
+    "id": 33,
+    "title": "Kafamda Bir Tuhaflık",
+    "author": "Orhan Pamuk",
+    "genre": "Roman",
+    "description": "İstanbul’un gecekondu kültürü ve değişimini bir bozacının gözünden anlatır."
+  },
+  {
+    "id": 34,
+    "title": "Huzur",
+    "author": "Ahmet Hamdi Tanpınar",
+    "genre": "Roman",
+    "description": "İçsel çatışmalar ve aşk üzerine kurulmuş bir modern Türk klasiğidir."
+  },
+  {
+    "id": 35,
+    "title": "Kürk Mantolu Madonna",
+    "author": "Sabahattin Ali",
+    "genre": "Roman",
+    "description": "Duygusal bir aşk hikâyesini sade ve etkileyici bir dille anlatır."
+  },
+
+  {
+    "id": 36,
+    "title": "Yabancı",
+    "author": "Albert Camus",
+    "genre": "Roman",
+    "description": "Varoluşçuluk akımının temel eserlerinden biridir. Duygusal kopukluk ve toplum eleştirisi içerir."
+  },
+  {
+    "id": 37,
+    "title": "Sineklerin Tanrısı",
+    "author": "William Golding",
+    "genre": "Roman",
+    "description": "İnsan doğasının karanlık yönlerini çocuklar üzerinden gösterir. Güçlü bir alegoridir."
+  },
+  {
+    "id": 38,
+    "title": "Satranç",
+    "author": "Stefan Zweig",
+    "genre": "Roman",
+    "description": "Psikolojik gerilim ve insan zihninin sınırlarını konu alır. Kısa ama çok etkileyici bir eserdir."
+  },
+  {
+    "id": 39,
+    "title": "Momo",
+    "author": "Michael Ende",
+    "genre": "Roman",
+    "description": "Zamanın çalınması ve modern toplumun hızı üzerine düşündürücü bir masalsı romandır."
+  },
+  {
+    "id": 40,
+    "title": "Tutunamayanlar",
+    "author": "Oğuz Atay",
+    "genre": "Roman",
+    "description": "Postmodern Türk edebiyatının en önemli eserlerindendir. Yabancılaşma ve bireyin iç dünyasını işler."
+  },
+
+  {
+    "id": 41,
+    "title": "Tehlikeli Oyunlar",
+    "author": "Oğuz Atay",
+    "genre": "Roman",
+    "description": "İçsel çatışmalar ve ironik bir anlatımla örülü etkileyici bir eserdir."
+  },
+  {
+    "id": 42,
+    "title": "Aylak Adam",
+    "author": "Yusuf Atılgan",
+    "genre": "Roman",
+    "description": "Bireyin topluma uyumsuzluğunu ve arayışını anlatır. Modern Türk romanının temel taşlarındandır."
+  },
+  {
+    "id": 43,
+    "title": "Kinyas ve Kayra",
+    "author": "Hakan Günday",
+    "genre": "Roman",
+    "description": "Sert ve karanlık bir atmosferde geçen sıra dışı bir romandır."
+  },
+  {
+    "id": 44,
+    "title": "Toprak Ana",
+    "author": "Cengiz Aytmatov",
+    "genre": "Roman",
+    "description": "Köy yaşamını ve insan ilişkilerini sıcak bir dille anlatır."
+  },
+  {
+    "id": 45,
+    "title": "Elveda Gülsarı",
+    "author": "Cengiz Aytmatov",
+    "genre": "Roman",
+    "description": "İnsan ile hayvan dostluğunu ve yaşamın zorluklarını işler."
+  },
+
+  {
+    "id": 46,
+    "title": "Suskunlar",
+    "author": "İhsan Oktay Anar",
+    "genre": "Roman",
+    "description": "Osmanlı döneminde geçen, fantastik unsurlar içeren özgün bir eserdir."
+  },
+  {
+    "id": 47,
+    "title": "Puslu Kıtalar Atlası",
+    "author": "İhsan Oktay Anar",
+    "genre": "Roman",
+    "description": "Üslup ve atmosfer bakımından benzersiz, post-modern bir romandır."
+  },
+  {
+    "id": 48,
+    "title": "Zamanın Kısa Tarihi",
+    "author": "Stephen Hawking",
+    "genre": "Roman",
+    "description": "Evrenin yapısını sade bir dille anlatan popüler bilim kitabıdır."
+  },
+  {
+    "id": 49,
+    "title": "Çocukluğum",
+    "author": "Maksim Gorki",
+    "genre": "Roman",
+    "description": "Gorki’nin zor geçen çocukluğunu anlattığı güçlü bir otobiyografik romandır."
+  },
+  {
+    "id": 50,
+    "title": "Kırlangıç Çığlığı",
+    "author": "Ahmet Ümit",
+    "genre": "Roman",
+    "description": "Toplumsal sorunlara değinen etkileyici bir polisiye romandır."
+  },
+  {
+    "id": 51,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Bilimkurgu",
+    "description": "Totaliter rejimlerin insan zihni üzerindeki etkilerini çarpıcı şekilde işleyen distopik bir romandır. Özgürlük, gözetim ve manipülasyon temalarını ele alır."
+  },
+  {
+    "id": 52,
+    "title": "Cesur Yeni Dünya",
+    "author": "Aldous Huxley",
+    "genre": "Bilimkurgu",
+    "description": "Bireyselliğin yok edildiği, teknolojik olarak kontrol edilen bir toplum tasviri sunar. Modern dünyaya dair güçlü eleştiriler içerir."
+  },
+  {
+    "id": 53,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Bilimkurgu",
+    "description": "Kitapların yasaklandığı bir gelecekte geçen bu roman, bilgi baskısı ve düşünce özgürlüğü üzerine çarpıcı mesajlar verir."
+  },
+  {
+    "id": 54,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Bilimkurgu",
+    "description": "Çöl gezegeni Arrakis’te geçen epik bir güç mücadelesini anlatır. Siyaset, din ve ekoloji temalarını ustalıkla işler."
+  },
+  {
+    "id": 55,
+    "title": "Vakıf",
+    "author": "Isaac Asimov",
+    "genre": "Bilimkurgu",
+    "description": "Galaktik İmparatorluk’un çöküşünü engelleme çabasını konu alır. Bilimkurgu tarihinin yapı taşlarından biridir."
+  },
+  {
+    "id": 56,
+    "title": "Ben Robot",
+    "author": "Isaac Asimov",
+    "genre": "Bilimkurgu",
+    "description": "Robot teknolojisinin gelişimini ve insan-robot ilişkisini sorgulayan öykülerden oluşur. Ünlü Üç Robot Yasası burada tanımlanmıştır."
+  },
+  {
+    "id": 57,
+    "title": "Marslı",
+    "author": "Andy Weir",
+    "genre": "Bilimkurgu",
+    "description": "Mars’ta mahsur kalan bir astronotun hayatta kalma mücadelesini anlatır. Bilimsel doğruluğu ve mizahi diliyle dikkat çeker."
+  },
+  {
+    "id": 58,
+    "title": "Doktor Moreau’nun Adası",
+    "author": "H. G. Wells",
+    "genre": "Bilimkurgu",
+    "description": "Sapkın bir bilim insanının canlılar üzerinde yaptığı deneyleri işler. Bilimsel etik ve insanlık kavramlarını sorgular."
+  },
+  {
+    "id": 59,
+    "title": "Zaman Makinesi",
+    "author": "H. G. Wells",
+    "genre": "Bilimkurgu",
+    "description": "Bir zaman yolcusunun gelecekte karşılaştığı toplumları anlatır. Bilimkurgu türünün öncü eserlerindendir."
+  },
+  {
+    "id": 60,
+    "title": "Dünyalar Savaşı",
+    "author": "H. G. Wells",
+    "genre": "Bilimkurgu",
+    "description": "Marslıların Dünya’ya saldırısını konu alır. Yabancı istilası temasının klasik örneklerinden biridir."
+  },
+
+  {
+    "id": 61,
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "genre": "Bilimkurgu",
+    "description": "Siberpunk türünün temel eseridir. Yapay zeka, siber uzay ve teknoloji odaklı karanlık bir gelecek sunar."
+  },
+  {
+    "id": 62,
+    "title": "Androidler Elektrikli Koyun Düşler Mi?",
+    "author": "Philip K. Dick",
+    "genre": "Bilimkurgu",
+    "description": "İnsanlık ve yapay zekâ arasındaki çizgiyi sorgulayan derin bir distopyadır. Blade Runner filmine ilham olmuştur."
+  },
+  {
+    "id": 63,
+    "title": "Solaris",
+    "author": "Stanislaw Lem",
+    "genre": "Bilimkurgu",
+    "description": "Bilinçli bir okyanus gezegeniyle iletişim kurmaya çalışan bir ekibin hikâyesini anlatır. Felsefi tonuyla dikkat çeker."
+  },
+  {
+    "id": 64,
+    "title": "Uzayda Piknik",
+    "author": "Strugatsky Kardeşler",
+    "genre": "Bilimkurgu",
+    "description": "Dünyaya bırakılan gizemli bir bölgenin etkilerini araştıran insanların hikâyesidir. Stalker evreninin temelidir."
+  },
+  {
+    "id": 65,
+    "title": "Mülksüzler",
+    "author": "Ursula K. Le Guin",
+    "genre": "Bilimkurgu",
+    "description": "İki gezegen arasındaki kültürel farklılıkları işler. Özgürlük ve toplum kavramlarını derinlemesine tartışır."
+  },
+  {
+    "id": 66,
+    "title": "Karanlığın Sol Eli",
+    "author": "Ursula K. Le Guin",
+    "genre": "Bilimkurgu",
+    "description": "Cinsiyet kavramının olmadığı bir gezegeni anlatır. Feminist bilimkurgunun önemli eserlerindendir."
+  },
+  {
+    "id": 67,
+    "title": "Sürgün Gezegeni",
+    "author": "Ursula K. Le Guin",
+    "genre": "Bilimkurgu",
+    "description": "Toplumdan dışlanmış bir halkın yaşam mücadelesini konu alır. Le Guin’in özgün anlatımını taşır."
+  },
+  {
+    "id": 68,
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "genre": "Bilimkurgu",
+    "description": "Metaverse kavramını erken dönemlerde işleyen vizyoner bir siberpunk romanıdır."
+  },
+  {
+    "id": 69,
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "genre": "Bilimkurgu",
+    "description": "Sanal bir evrende geçen hızlı tempolu bir macera sunar. Pop kültür referanslarıyla doludur."
+  },
+  {
+    "id": 70,
+    "title": "Hyperion",
+    "author": "Dan Simmons",
+    "genre": "Bilimkurgu",
+    "description": "Farklı karakterlerin hikâyelerini bir araya getiren epik bir bilimkurgu romanıdır. Derin mitoloji içerir."
+  },
+
+  {
+    "id": 71,
+    "title": "Yıldız Gemisi Askerleri",
+    "author": "Robert A. Heinlein",
+    "genre": "Bilimkurgu",
+    "description": "Askeri bilimkurgu türünün öncü eserlerinden biridir. Savaş, toplum ve birey kavramlarını tartışır."
+  },
+  {
+    "id": 72,
+    "title": "Stepford Kadınları",
+    "author": "Ira Levin",
+    "genre": "Bilimkurgu",
+    "description": "Baskıcı toplumsal normlara eleştiri getiren karanlık ve gerilim dolu bir bilimkurgu romanıdır."
+  },
+  {
+    "id": 73,
+    "title": "Kör Suikastçı",
+    "author": "Margaret Atwood",
+    "genre": "Bilimkurgu",
+    "description": "Bilimkurgu ile gerçekliği iç içe geçiren çok katmanlı bir anlatı sunar. Atwood’un ustalığını gösterir."
+  },
+  {
+    "id": 74,
+    "title": "Android Uyanıyor",
+    "author": "John Scalzi",
+    "genre": "Bilimkurgu",
+    "description": "Bilinci android bedenine aktarılan insanların hikâyesini işler. Hızlı ve eğlenceli bir anlatım sunar."
+  },
+  {
+    "id": 75,
+    "title": "Kıyamet Kitabı",
+    "author": "Connie Willis",
+    "genre": "Bilimkurgu",
+    "description": "Zaman yolculuğu ile Orta Çağ vebasını birleştiren güçlü bir bilimkurgu eseridir."
+  },
+
+  {
+    "id": 76,
+    "title": "Yüzüklerin Efendisi",
+    "author": "J. R. R. Tolkien",
+    "genre": "Fantastik",
+    "description": "Tolkien'in yarattığı Orta Dünya’da geçen epik bir maceradır. Fantastik edebiyatın en büyük başyapıtlarından biridir."
+  },
+  {
+    "id": 77,
+    "title": "Hobbit",
+    "author": "J. R. R. Tolkien",
+    "genre": "Fantastik",
+    "description": "Bir hobbitin beklenmedik macerasını anlatır. Sıcak, eğlenceli ve büyülü bir başlangıç hikâyesidir."
+  },
+  {
+    "id": 78,
+    "title": "Harry Potter ve Felsefe Taşı",
+    "author": "J. K. Rowling",
+    "genre": "Fantastik",
+    "description": "Genç bir büyücünün Hogwarts’taki ilk yılını konu alır. Modern fantastik edebiyatın en popüler eserlerinden biridir."
+  },
+  {
+    "id": 79,
+    "title": "Harry Potter ve Sırlar Odası",
+    "author": "J. K. Rowling",
+    "genre": "Fantastik",
+    "description": "Hogwarts'ta geçen ikinci yılın gizemlerini işler. Serinin karanlık tonları burada güçlenir."
+  },
+  {
+    "id": 80,
+    "title": "Ejderha Mızrağı Tarihçesi",
+    "author": "Margaret Weis & Tracy Hickman",
+    "genre": "Fantastik",
+    "description": "Ejderhalar, büyücüler ve unutulmaz karakterler eşliğinde geçen klasik bir fantastik maceradır."
+  },
+
+  {
+    "id": 81,
+    "title": "Taht Oyunları",
+    "author": "George R. R. Martin",
+    "genre": "Fantastik",
+    "description": "Saray entrikaları, savaş ve güç mücadeleleri üzerine kurulu epik bir hikâyedir. Zengin bir dünya inşa eder."
+  },
+  {
+    "id": 82,
+    "title": "Buz ve Ateşin Şarkısı",
+    "author": "George R. R. Martin",
+    "genre": "Fantastik",
+    "description": "Efsanevi Westeros dünyasında geçen büyük bir destandır. Çoklu karakter anlatımıyla dikkat çeker."
+  },
+  {
+    "id": 83,
+    "title": "Kralkatili Güncesi",
+    "author": "Patrick Rothfuss",
+    "genre": "Fantastik",
+    "description": "Eşsiz bir anlatıma sahip büyülü bir fantastik hikâyedir. Kahramanın yaşam öyküsünü destansı bir dille sunar."
+  },
+  {
+    "id": 84,
+    "title": "Rüzgarın Adı",
+    "author": "Patrick Rothfuss",
+    "genre": "Fantastik",
+    "description": "Kvothe’un hikâyesini şiirsel bir dille anlatır. Dünya kurma ve karakter işleme açısından güçlüdür."
+  },
+  {
+    "id": 85,
+    "title": "Mistborn",
+    "author": "Brandon Sanderson",
+    "genre": "Fantastik",
+    "description": "Metal büyüsü üzerine kurulu özgün bir büyü sistemiyle dikkat çeker. Aksiyon ve entrika doludur."
+  },
+
+  {
+    "id": 86,
+    "title": "Elantris",
+    "author": "Brandon Sanderson",
+    "genre": "Fantastik",
+    "description": "Bir zamanlar tanrıların şehri olan Elantris’in çöküşünü anlatır. Politik ve mistik temaları birleştirir."
+  },
+  {
+    "id": 87,
+    "title": "Narnia Günlükleri",
+    "author": "C. S. Lewis",
+    "genre": "Fantastik",
+    "description": "Çocukların büyülü bir dünyaya geçişini konu alan klasik bir fantastik seridir."
+  },
+  {
+    "id": 88,
+    "title": "Karanlık Cevher",
+    "author": "Philip Pullman",
+    "genre": "Fantastik",
+    "description": "Çoklu evrenler üzerine kurulu karanlık ve derin bir fantastik seridir."
+  },
+  {
+    "id": 89,
+    "title": "Unutulmuş Diyarlar",
+    "author": "R. A. Salvatore",
+    "genre": "Fantastik",
+    "description": "Drizzt Do’Urden’ın maceralarını anlatan ikonik bir fantastik seridir."
+  },
+  {
+    "id": 90,
+    "title": "Witcher: Son Dilek",
+    "author": "Andrzej Sapkowski",
+    "genre": "Fantastik",
+    "description": "Canavar avcısı Geralt’ın öykülerini anlatır. Karanlık atmosferiyle dikkat çeker."
+  },
+
+  {
+    "id": 91,
+    "title": "Witcher: Kader Kılıcı",
+    "author": "Andrzej Sapkowski",
+    "genre": "Fantastik",
+    "description": "Geralt ve Ciri arasındaki bağı güçlendiren önemli öyküler içerir."
+  },
+  {
+    "id": 92,
+    "title": "Amber Yıllıkları",
+    "author": "Roger Zelazny",
+    "genre": "Fantastik",
+    "description": "Paralel evrenler ve taht kavgalarıyla dolu özgün bir fantazi serisidir."
+  },
+  {
+    "id": 93,
+    "title": "Oz Büyücüsü",
+    "author": "L. Frank Baum",
+    "genre": "Fantastik",
+    "description": "Dorothy’nin Oz diyarındaki maceralarını anlatan klasik bir çocuk romanıdır."
+  },
+  {
+    "id": 94,
+    "title": "Earthsea",
+    "author": "Ursula K. Le Guin",
+    "genre": "Fantastik",
+    "description": "Ged'in büyü yolculuğunu konu alan felsefi derinliği güçlü bir fantastik seridir."
+  },
+  {
+    "id": 95,
+    "title": "Kırmızı Kraliçe",
+    "author": "Victoria Aveyard",
+    "genre": "Fantastik",
+    "description": "Süper güçlere sahip sınıfların çarpıştığı bir distopik fantastik evrende geçer."
+  },
+
+  {
+    "id": 96,
+    "title": "Gölgelerin Efendisi",
+    "author": "John Flanagan",
+    "genre": "Fantastik",
+    "description": "Genç bir çırağın okçuluk ve casusluk eğitimiyle büyüdüğü sürükleyici bir seri başlangıcıdır."
+  },
+  {
+    "id": 97,
+    "title": "Altın Pusula",
+    "author": "Philip Pullman",
+    "genre": "Fantastik",
+    "description": "Lyra’nın gizemli bir evrenler arası yolculuğa çıkışını konu alır. Güçlü bir dini ve felsefi altyapı taşır."
+  },
+  {
+    "id": 98,
+    "title": "The Blade Itself",
+    "author": "Joe Abercrombie",
+    "genre": "Fantastik",
+    "description": "Karanlık mizah ve sert atmosferiyle dikkat çeken bir grimdark fantastik romanıdır."
+  },
+  {
+    "id": 99,
+    "title": "Sihirbazlar",
+    "author": "Lev Grossman",
+    "genre": "Fantastik",
+    "description": "Gerçek dünya ile büyü akademisini birleştiren yetişkinlere yönelik bir fantastik romandır."
+  },
+  {
+    "id": 100,
+    "title": "Ejderha Laneti",
+    "author": "Jenny Wurts",
+    "genre": "Fantastik",
+    "description": "Ejderhalar ve büyü etrafında şekillenen klasik bir fantastik maceradır."
+  },
+  {
+    "id": 101,
+    "title": "Doğu Ekspresinde Cinayet",
+    "author": "Agatha Christie",
+    "genre": "Polisiye",
+    "description": "Hercule Poirot'nun bir tren yolculuğunda işlenen cinayeti çözmeye çalıştığı klasik bir polisiye romanıdır. Christie’nin ustalıkla ördüğü sürpriz sonuyla bilinir."
+  },
+  {
+    "id": 102,
+    "title": "On Küçük Zenci",
+    "author": "Agatha Christie",
+    "genre": "Polisiye",
+    "description": "Issız bir adada toplanan on kişinin tek tek öldürülmesini konu alır. Polisiye türünün en çarpıcı zihin oyunlarından biridir."
+  },
+  {
+    "id": 103,
+    "title": "Cinayet Alfabesi",
+    "author": "Agatha Christie",
+    "genre": "Polisiye",
+    "description": "Bir seri katilin alfabetik bir düzenle cinayetler işlemesini konu alır. Poirot’nun zekâ dolu çözüm sürecini takip eder."
+  },
+  {
+    "id": 104,
+    "title": "Kayıp Kız",
+    "author": "Gillian Flynn",
+    "genre": "Polisiye",
+    "description": "Evlilik, medya ve manipülasyon temalarını işleyen modern bir gerilim romanıdır. Şaşırtıcı dönüşleriyle ünlüdür."
+  },
+  {
+    "id": 105,
+    "title": "Trendeki Kız",
+    "author": "Paula Hawkins",
+    "genre": "Polisiye",
+    "description": "Güvenilmez anlatıcı tekniğiyle evlilik ve psikolojik sorunları merkezine alan bir gerilim romanıdır."
+  },
+  {
+    "id": 106,
+    "title": "Sherlock Holmes: Kızıl Dosya",
+    "author": "Arthur Conan Doyle",
+    "genre": "Polisiye",
+    "description": "Holmes ve Watson’un ilk macerasıdır. Keskin gözlem ve mantık yürütmenin öne çıktığı bir polisiye klasik."
+  },
+  {
+    "id": 107,
+    "title": "Baskerville Tazısı",
+    "author": "Arthur Conan Doyle",
+    "genre": "Polisiye",
+    "description": "Karanlık bir aile laneti ve esrarengiz ölüm etrafında geçen korku-polisiye türünün önemli bir eseridir."
+  },
+  {
+    "id": 108,
+    "title": "Kırlangıç Çığlığı",
+    "author": "Ahmet Ümit",
+    "genre": "Polisiye",
+    "description": "Toplumsal olaylara değinen, güçlü karakterleriyle dikkat çeken bir Türk polisiyesi. Sürükleyiciliği yüksektir."
+  },
+  {
+    "id": 109,
+    "title": "Sis ve Gece",
+    "author": "Ahmet Ümit",
+    "genre": "Polisiye",
+    "description": "Polisiye ile psikolojik çözümlemeyi birleştiren karanlık atmosferli bir romandır."
+  },
+  {
+    "id": 110,
+    "title": "Beyoğlu Rapsodisi",
+    "author": "Ahmet Ümit",
+    "genre": "Polisiye",
+    "description": "İstanbul’un arka sokaklarını ve üç arkadaşın karanlık hikâyesini işler. Roman ritmik bir üslupla ilerler."
+  },
+
+  {
+    "id": 111,
+    "title": "Kavim",
+    "author": "Ahmet Ümit",
+    "genre": "Polisiye",
+    "description": "Cinayet soruşturmasıyla birlikte toplumun farklı kesimlerini ele alan derinlikli bir polisiye romandır."
+  },
+  {
+    "id": 112,
+    "title": "Ejderha Dövmeli Kız",
+    "author": "Stieg Larsson",
+    "genre": "Polisiye",
+    "description": "Gazeteci Blomkvist ve hacker Lisbeth Salander’ın araştırma sürecini konu alan modern bir klasik."
+  },
+  {
+    "id": 113,
+    "title": "Ateşle Oynayan Kız",
+    "author": "Stieg Larsson",
+    "genre": "Polisiye",
+    "description": "Serinin ikinci kitabı, karanlık aile sırları ve siyasi entrikalar içerir. Tempolu bir gerilim sunar."
+  },
+  {
+    "id": 114,
+    "title": "Arı Kovanına Çomak Sokan Kız",
+    "author": "Stieg Larsson",
+    "genre": "Polisiye",
+    "description": "Millennium üçlemesinin final kitabı; karakter odaklı güçlü bir gerilim sunar."
+  },
+  {
+    "id": 115,
+    "title": "Kızıl Nehirler",
+    "author": "Jean-Christophe Grangé",
+    "genre": "Polisiye",
+    "description": "Karanlık atmosferi ve seri cinayet örgüsüyle bilinen bir Fransız polisiyesi."
+  },
+  {
+    "id": 116,
+    "title": "Taş Meclisi",
+    "author": "Jean-Christophe Grangé",
+    "genre": "Polisiye",
+    "description": "Esrarengiz bir cinayeti konu alan ve doğaüstü unsurlar taşıyan bir başka Grangé gerilimi."
+  },
+  {
+    "id": 117,
+    "title": "Leyleklerin Uçuşu",
+    "author": "Jean-Christophe Grangé",
+    "genre": "Polisiye",
+    "description": "Seyahat ve gerilim üzerine kurulu sürükleyici bir roman. Uluslararası bir komployu işler."
+  },
+  {
+    "id": 118,
+    "title": "Kapan",
+    "author": "John Fowles",
+    "genre": "Polisiye",
+    "description": "Takıntı, güç ve esaret temalarını psikolojik bir atmosferde işler."
+  },
+  {
+    "id": 119,
+    "title": "Davetsiz Misafir",
+    "author": "Shari Lapena",
+    "genre": "Polisiye",
+    "description": "Kar fırtınasıyla izole bir otelde geçen bir cinayet hikâyesidir. Agatha Christie tarzı bir gerilim sunar."
+  },
+  {
+    "id": 120,
+    "title": "Karanlık Ormanda",
+    "author": "Ruth Ware",
+    "genre": "Polisiye",
+    "description": "Geçmişle yüzleşme ve paranoya temalarıyla örülü, atmosferik bir gerilim romanıdır."
+  },
+
+  {
+    "id": 121,
+    "title": "Guguk Kuşu",
+    "author": "Robert Galbraith (J.K. Rowling)",
+    "genre": "Polisiye",
+    "description": "Cormoran Strike’ın ilk büyük soruşturmasını konu alır. Modern dedektif romanının güçlü örneklerindendir."
+  },
+  {
+    "id": 122,
+    "title": "İçerideki Adam",
+    "author": "Brad Meltzer",
+    "genre": "Polisiye",
+    "description": "Sırlarla dolu bir hükümet komployu konu alan hızlı tempolu bir gerilim romanıdır."
+  },
+  {
+    "id": 123,
+    "title": "Karanlık Zihinler",
+    "author": "Alex North",
+    "genre": "Polisiye",
+    "description": "Geçmişte yaşanan bir cinayetle bugünün olaylarını bağlayan sürprizlerle dolu bir psikolojik gerilimdir."
+  },
+  {
+    "id": 124,
+    "title": "Kayıp Sembol",
+    "author": "Dan Brown",
+    "genre": "Polisiye",
+    "description": "Masonluk, gizemli semboller ve hızlı akan bir macera üzerine kuruludur."
+  },
+  {
+    "id": 125,
+    "title": "Melekler ve Şeytanlar",
+    "author": "Dan Brown",
+    "genre": "Polisiye",
+    "description": "Bilim ve din arasındaki gerilimi Vatikan’da geçen tempolu bir hikâyeyle işler."
+  },
+
+  {
+    "id": 126,
+    "title": "Baba",
+    "author": "Mario Puzo",
+    "genre": "Dram",
+    "description": "Mafya ailesinin yükselişini ve çöküşünü konu alan epik bir romandır. Güç ve aile bağlarını işler."
+  },
+  {
+    "id": 127,
+    "title": "Dava",
+    "author": "Franz Kafka",
+    "genre": "Dram",
+    "description": "Bir bireyin anlam veremediği bir dava ile boğuşmasını anlatır. Bürokrasi ve yabancılaşma temaları öne çıkar."
+  },
+  {
+    "id": 128,
+    "title": "Körlük",
+    "author": "José Saramago",
+    "genre": "Dram",
+    "description": "Toplumun çöküşünü dramatik bir dille anlatır. İnsan doğasının kırılganlığını gözler önüne serer."
+  },
+  {
+    "id": 129,
+    "title": "Yaşlı Adam ve Deniz",
+    "author": "Ernest Hemingway",
+    "genre": "Dram",
+    "description": "Bir balıkçı ile devasa bir kılıç balığı arasındaki mücadeleyi anlatır. Mücadele ve onur temaları taşır."
+  },
+  {
+    "id": 130,
+    "title": "Martin Eden",
+    "author": "Jack London",
+    "genre": "Dram",
+    "description": "Bir yazarın kendini geliştirme çabasını ve trajik kaderini işler. Kapitalizme sert bir eleştiri sunar."
+  },
+
+  {
+    "id": 131,
+    "title": "Küçük Prens",
+    "author": "Antoine de Saint-Exupéry",
+    "genre": "Dram",
+    "description": "Sadelik içindeki derin anlamlarıyla çocuklara ve yetişkinlere hitap eden zamansız bir eserdir."
+  },
+  {
+    "id": 132,
+    "title": "Dalgalar",
+    "author": "Virginia Woolf",
+    "genre": "Dram",
+    "description": "Altı karakterin iç dünyasını şiirsel bir dille anlatır. Deneysel roman türünün önemli örneklerindendir."
+  },
+  {
+    "id": 133,
+    "title": "Saatleri Ayarlama Enstitüsü",
+    "author": "Ahmet Hamdi Tanpınar",
+    "genre": "Dram",
+    "description": "Doğu-Batı çatışması ve modernleşme sorunlarını hiciv yoluyla işler."
+  },
+  {
+    "id": 134,
+    "title": "İnce Memed",
+    "author": "Yaşar Kemal",
+    "genre": "Dram",
+    "description": "Eşkıya İnce Memed’in adalet arayışını konu alır. Anadolu’nun toplumsal yapısını etkileyici bir dille aktarır."
+  },
+  {
+    "id": 135,
+    "title": "Ortadirek",
+    "author": "Yaşar Kemal",
+    "genre": "Dram",
+    "description": "Anadolu köylüsünün yaşam mücadelesini gerçekçi bir dille işler."
+  },
+
+  {
+    "id": 136,
+    "title": "Demirciler Çarşısı Cinayeti",
+    "author": "Yaşar Kemal",
+    "genre": "Dram",
+    "description": "Sosyal çatışmaları ve bireyin iç dünyasını güçlü bir anlatımla işler."
+  },
+  {
+    "id": 137,
+    "title": "Sefiller",
+    "author": "Victor Hugo",
+    "genre": "Dram",
+    "description": "Jean Valjean’ın hayatı üzerinden adalet, merhamet ve insanlık temalarını işler. Epik bir başyapıttır."
+  },
+  {
+    "id": 138,
+    "title": "Ateşten Gömlek",
+    "author": "Halide Edip Adıvar",
+    "genre": "Dram",
+    "description": "Milli Mücadele döneminde geçen derin bir aşk ve fedakârlık hikâyesidir."
+  },
+  {
+    "id": 139,
+    "title": "Handan",
+    "author": "Halide Edip Adıvar",
+    "genre": "Dram",
+    "description": "Bir kadının toplum içindeki yerini ve içsel çöküşünü anlatır."
+  },
+  {
+    "id": 140,
+    "title": "Huzur",
+    "author": "Ahmet Hamdi Tanpınar",
+    "genre": "Dram",
+    "description": "Aşk, içsel çatışmalar ve modernleşme temalarını işleyen önemli bir Türk romanıdır."
+  },
+
+  {
+    "id": 141,
+    "title": "Tutunamayanlar",
+    "author": "Oğuz Atay",
+    "genre": "Dram",
+    "description": "Modern bireyin yabancılaşmasını ironik ve çarpıcı bir biçimde işler."
+  },
+  {
+    "id": 142,
+    "title": "Tehlikeli Oyunlar",
+    "author": "Oğuz Atay",
+    "genre": "Dram",
+    "description": "İnsan psikolojisi ve iç hesaplaşmalar üzerine derin bir roman."
+  },
+  {
+    "id": 143,
+    "title": "Kör Baykuş",
+    "author": "Sadegh Hedayat",
+    "genre": "Dram",
+    "description": "Karanlık ve sembolik bir atmosferde geçen yoğun bir psikolojik eserdir."
+  },
+  {
+    "id": 144,
+    "title": "Yılanların Öcü",
+    "author": "Fakir Baykurt",
+    "genre": "Dram",
+    "description": "Toplumsal baskı ve adaletsizlik temalarını köylü yaşamı üzerinden işler."
+  },
+  {
+    "id": 145,
+    "title": "Bereketli Topraklar Üzerinde",
+    "author": "Orhan Kemal",
+    "genre": "Dram",
+    "description": "Çukurova’da işçilerin yaşam mücadelesini gerçekçi bir dille anlatır."
+  },
+
+  {
+    "id": 146,
+    "title": "Ekmek Kavgası",
+    "author": "Orhan Kemal",
+    "genre": "Dram",
+    "description": "Yoksulluk ve emek temalarını güçlü karakterler aracılığıyla işler."
+  },
+  {
+    "id": 147,
+    "title": "Gemide",
+    "author": "Arthur Miller",
+    "genre": "Dram",
+    "description": "Karakterlerin içsel çatışmalarını merkeze alan etkileyici bir dramdır."
+  },
+  {
+    "id": 148,
+    "title": "Fareler ve İnsanlar",
+    "author": "John Steinbeck",
+    "genre": "Dram",
+    "description": "Yoksulluk ve dostluk üzerine kurulmuş, evrensel temalara sahip bir romandır."
+  },
+  {
+    "id": 149,
+    "title": "Kırgın Çiçekler",
+    "author": "Sabahattin Ali",
+    "genre": "Dram",
+    "description": "Duygusal yoğunluğu yüksek, toplumsal temalara değinen bir öykü kitabıdır."
+  },
+  {
+    "id": 150,
+    "title": "Sırça Köşk",
+    "author": "Sabahattin Ali",
+    "genre": "Dram",
+    "description": "Toplumsal eleştiri ve alegoriyi bir araya getiren güçlü bir eserdir."
+  },
+  {
+    "id": 151,
+    "title": "Atomik Alışkanlıklar",
+    "author": "James Clear",
+    "genre": "Kişisel Gelişim",
+    "description": "Küçük alışkanlıkların büyük sonuçlar yaratma gücünü anlatır. Bilimsel araştırmalara dayanan pratik teknikler sunar."
+  },
+  {
+    "id": 152,
+    "title": "Düşün ve Zengin Ol",
+    "author": "Napoleon Hill",
+    "genre": "Kişisel Gelişim",
+    "description": "Başarı psikolojisini ve zihin gücünü ele alan klasik bir kişisel gelişim kitabıdır. Motivasyonun temel taşlarını anlatır."
+  },
+  {
+    "id": 153,
+    "title": "Etkili İnsanların 7 Alışkanlığı",
+    "author": "Stephen R. Covey",
+    "genre": "Kişisel Gelişim",
+    "description": "Kişisel ve profesyonel hayatta verimliliği artırmak için uygulanabilir alışkanlıklar sunar."
+  },
+  {
+    "id": 154,
+    "title": "Alışkanlıkların Gücü",
+    "author": "Charles Duhigg",
+    "genre": "Kişisel Gelişim",
+    "description": "Alışkanlık döngüsünün nasıl çalıştığını bilimsel bir dille açıklar. Davranış değiştirme teknikleri sunar."
+  },
+  {
+    "id": 155,
+    "title": "Outliers",
+    "author": "Malcolm Gladwell",
+    "genre": "Kişisel Gelişim",
+    "description": "Başarının ardındaki görünmeyen faktörleri inceler. Kültür, fırsatlar ve çalışma disiplini üzerine düşünceler içerir."
+  },
+
+  {
+    "id": 156,
+    "title": "Akış",
+    "author": "Mihaly Csikszentmihalyi",
+    "genre": "Kişisel Gelişim",
+    "description": "Mutluluk ve verimliliğin temelinde yer alan “akış” deneyimini açıklayan akademik temelli bir kitaptır."
+  },
+  {
+    "id": 157,
+    "title": "Savaşçı",
+    "author": "Doğan Cüceloğlu",
+    "genre": "Kişisel Gelişim",
+    "description": "İçsel güç ve özgüven üzerine yoğunlaşır. İnsan ilişkilerini geliştirici pratik öneriler içerir."
+  },
+  {
+    "id": 158,
+    "title": "İnsanın Anlam Arayışı",
+    "author": "Viktor E. Frankl",
+    "genre": "Kişisel Gelişim",
+    "description": "Frankl’ın toplama kampı deneyimleri üzerinden yaşamda anlam bulma üzerine derin bir eser."
+  },
+  {
+    "id": 159,
+    "title": "Duygusal Zeka",
+    "author": "Daniel Goleman",
+    "genre": "Kişisel Gelişim",
+    "description": "Başarının sadece IQ’dan ibaret olmadığını, duygusal zekanın önemini ortaya koyar."
+  },
+  {
+    "id": 160,
+    "title": "Dört Anlaşma",
+    "author": "Don Miguel Ruiz",
+    "genre": "Kişisel Gelişim",
+    "description": "Toltek bilgeliğine dayanan dört temel ilkeyi anlatarak daha özgür bir yaşamın yolunu gösterir."
+  },
+
+  {
+    "id": 161,
+    "title": "Beden Dilinin Gücü",
+    "author": "Joe Navarro",
+    "genre": "Kişisel Gelişim",
+    "description": "İnsan davranışlarını anlamak için beden dili okumayı öğretir. FBI deneyimlerine dayanan bilgiler sunar."
+  },
+  {
+    "id": 162,
+    "title": "Yaratıcı Fikirler",
+    "author": "Edward de Bono",
+    "genre": "Kişisel Gelişim",
+    "description": "Yaratıcı düşünme süreçlerini geliştirmek için pratik yöntemler sunar."
+  },
+  {
+    "id": 163,
+    "title": "Güçlü Hafıza Teknikleri",
+    "author": "Harry Lorayne",
+    "genre": "Kişisel Gelişim",
+    "description": "Unutmayı azaltan ve hafızayı güçlendiren teknikler içerir. Uygulanabilir pratikler sunar."
+  },
+  {
+    "id": 164,
+    "title": "Mutluluk Bilimi",
+    "author": "Sonja Lyubomirsky",
+    "genre": "Kişisel Gelişim",
+    "description": "Mutluluğun psikolojik temelini bilimsel araştırmalarla açıklar."
+  },
+  {
+    "id": 165,
+    "title": "Güçlü Beyin",
+    "author": "John Ratey",
+    "genre": "Kişisel Gelişim",
+    "description": "Fiziksel aktivitenin beyin fonksiyonlarına etkisini anlatır. Zihinsel performansı artırma yolları sunar."
+  },
+
+  {
+    "id": 166,
+    "title": "Ferrarisini Satan Bilge",
+    "author": "Robin Sharma",
+    "genre": "Kişisel Gelişim",
+    "description": "Ruhsal arayış ve dönüşümü anlatan ilham verici bir hikâye sunar."
+  },
+  {
+    "id": 167,
+    "title": "Ertelemek Sanatı",
+    "author": "John Perry",
+    "genre": "Kişisel Gelişim",
+    "description": "Erteleme alışkanlığını mizahi bir dille analiz eder ve çözümler sunar."
+  },
+  {
+    "id": 168,
+    "title": "Kendine İyi Davran Güzel İnsan",
+    "author": "Aşkım Kapışmak",
+    "genre": "Kişisel Gelişim",
+    "description": "Kendine değer verme ve hayatı daha pozitif yaşama üzerine öneriler sunar."
+  },
+  {
+    "id": 169,
+    "title": "Seninle Başlamadı",
+    "author": "Mark Wolynn",
+    "genre": "Kişisel Gelişim",
+    "description": "Nesiller arası travmanın etkilerini bilimsel perspektifle açıklar."
+  },
+  {
+    "id": 170,
+    "title": "Anda Kal",
+    "author": "Eckhart Tolle",
+    "genre": "Kişisel Gelişim",
+    "description": "Şimdiki anın gücünü keşfettirir. Spiritüel farkındalık üzerine etkili bir anlatım sunar."
+  },
+
+  {
+    "id": 171,
+    "title": "Cesaret",
+    "author": "Osho",
+    "genre": "Kişisel Gelişim",
+    "description": "Korkuyla yüzleşme ve içsel cesaret kazanma üzerine derin bir spiritüel anlatı sunar."
+  },
+  {
+    "id": 172,
+    "title": "Sınırlarını Aş",
+    "author": "Tony Robbins",
+    "genre": "Kişisel Gelişim",
+    "description": "Motivasyon ve kendi potansiyelini artırma üzerine güçlü bir rehberdir."
+  },
+  {
+    "id": 173,
+    "title": "Büyü Düşüncesi",
+    "author": "Matthew Hutson",
+    "genre": "Kişisel Gelişim",
+    "description": "İnsan zihninin irrasyonel düşünme eğilimlerini bilimsel bir yaklaşımla inceler."
+  },
+  {
+    "id": 174,
+    "title": "Derin Çalışma",
+    "author": "Cal Newport",
+    "genre": "Kişisel Gelişim",
+    "description": "Odaklanma becerisini geliştirmek için stratejiler sunar. Verimliliği artırma üzerine önemli bir kaynaktır."
+  },
+  {
+    "id": 175,
+    "title": "Sözlü İkna Sanatı",
+    "author": "Cialdini & Harvard Ekibi",
+    "genre": "Kişisel Gelişim",
+    "description": "İkna tekniklerini bilimsel araştırmalar ışığında anlatır. Sosyal psikoloji temelli bir rehberdir."
+  },
+
+  {
+    "id": 176,
+    "title": "Define Adası",
+    "author": "Robert Louis Stevenson",
+    "genre": "Macera",
+    "description": "Genç bir çocuğun gizemli bir harita ile çıktığı define avı macerasını anlatır. Klasik bir denizcilik hikâyesidir."
+  },
+  {
+    "id": 177,
+    "title": "Seksen Günde Devriâlem",
+    "author": "Jules Verne",
+    "genre": "Macera",
+    "description": "Phileas Fogg’un dünya etrafında zamanla yarıştığı unutulmaz bir maceradır."
+  },
+  {
+    "id": 178,
+    "title": "Denizler Altında 20.000 Fersah",
+    "author": "Jules Verne",
+    "genre": "Macera",
+    "description": "Kaptan Nemo ve Nautilus’un gizemli yolculuğunu konu alır. Bilimsel hayal gücüyle doludur."
+  },
+  {
+    "id": 179,
+    "title": "Robin Hood",
+    "author": "Howard Pyle",
+    "genre": "Macera",
+    "description": "Zenginden alıp fakire veren Robin Hood’un efsanevi hikâyesini anlatır."
+  },
+  {
+    "id": 180,
+    "title": "Üç Silahşör",
+    "author": "Alexandre Dumas",
+    "genre": "Macera",
+    "description": "D’Artagnan ile silahşörlerin dostluk ve mücadele dolu maceralarını konu alır."
+  },
+
+  {
+    "id": 181,
+    "title": "Monte Cristo Kontu",
+    "author": "Alexandre Dumas",
+    "genre": "Macera",
+    "description": "İhanet sonrası intikam için yükselen Edmond Dantès’in epik öyküsüdür."
+  },
+  {
+    "id": 182,
+    "title": "Kaptan Grant'ın Çocukları",
+    "author": "Jules Verne",
+    "genre": "Macera",
+    "description": "Kayıp bir kaptanı bulmak için kıtalar arası bir serüvende geçen klasik bir macera romanıdır."
+  },
+  {
+    "id": 183,
+    "title": "Kızıl Korsan",
+    "author": "Rafael Sabatini",
+    "genre": "Macera",
+    "description": "Korsanlık ve özgürlük temalarını birleştiren hızlı akan bir maceradır."
+  },
+  {
+    "id": 184,
+    "title": "Deniz Kurdu",
+    "author": "Jack London",
+    "genre": "Macera",
+    "description": "Bir yazarın zorlu deniz koşullarında verdiği hayatta kalma mücadelesini anlatır."
+  },
+  {
+    "id": 185,
+    "title": "Beyaz Diş",
+    "author": "Jack London",
+    "genre": "Macera",
+    "description": "Vahşi doğada geçen dostluk ve evcilleşme temalı bir macera romanıdır."
+  },
+
+  {
+    "id": 186,
+    "title": "Kurnaz Tilki",
+    "author": "Rudyard Kipling",
+    "genre": "Macera",
+    "description": "Zeki bir tilkinin ormandaki maceralarını konu alan kısa bir klasik çocuk hikâyesidir."
+  },
+  {
+    "id": 187,
+    "title": "Altıncı Koğuş",
+    "author": "Anton Çehov",
+    "genre": "Macera",
+    "description": "Toplumsal eleştiriler içeren bir öykü olmasına rağmen dramatik bir macera havası taşır."
+  },
+  {
+    "id": 188,
+    "title": "Uzun Deniz",
+    "author": "Terry Pratchett & Stephen Baxter",
+    "genre": "Macera",
+    "description": "Sonsuz paralel dünyalara yapılan yolculukları konu alır. Macera ve bilimkurguyu birleştirir."
+  },
+  {
+    "id": 189,
+    "title": "Zamanın Çocukları",
+    "author": "Adrian Tchaikovsky",
+    "genre": "Macera",
+    "description": "Yeni dünyaların keşfi ve gelişmiş türler üzerine kurulu destansı bir roman."
+  },
+  {
+    "id": 190,
+    "title": "Kuşatılmış Şehir",
+    "author": "Paul Auster",
+    "genre": "Macera",
+    "description": "Kimlik arayışı ve metaforik bir yolculuk içeren modern bir macera anlatısıdır."
+  },
+
+  {
+    "id": 191,
+    "title": "Kuzeyin Yıldızı",
+    "author": "Philip Pullman",
+    "genre": "Macera",
+    "description": "Çocukların esrarengiz bir güçle mücadele ettiği fantastik-macera türünde bir eserdir."
+  },
+  {
+    "id": 192,
+    "title": "Define Peşinde",
+    "author": "Clive Cussler",
+    "genre": "Macera",
+    "description": "Eski haritalar, gizli hazineler ve tehlikeli yolculuklarla dolu bir macera hikâyesidir."
+  },
+  {
+    "id": 193,
+    "title": "Kraken",
+    "author": "China Miéville",
+    "genre": "Macera",
+    "description": "Dev kalamarın gizemli kayboluşu etrafında dönen fantastik bir macera romanıdır."
+  },
+  {
+    "id": 194,
+    "title": "Sürgünler",
+    "author": "James Patterson",
+    "genre": "Macera",
+    "description": "Tehlikeli görevler üstlenen bir grubun maceralarını konu alır. Hızlı tempolu bir romandır."
+  },
+  {
+    "id": 195,
+    "title": "Kartalın Uçuşu",
+    "author": "Wilbur Smith",
+    "genre": "Macera",
+    "description": "Güney Afrika’da geçen, aksiyon ve entrika dolu bir macera romanıdır."
+  },
+
+  {
+    "id": 196,
+    "title": "Koçbaşı",
+    "author": "Wilbur Smith",
+    "genre": "Macera",
+    "description": "Tarih, keşif ve savaş unsurlarını bir araya getiren sürükleyici bir maceradır."
+  },
+  {
+    "id": 197,
+    "title": "Tenten Tibet’te",
+    "author": "Hergé",
+    "genre": "Macera",
+    "description": "Tenten’in arkadaşını kurtarmaya çalıştığı yüksek tempolu bir maceradır."
+  },
+  {
+    "id": 198,
+    "title": "Kon-Tiki",
+    "author": "Thor Heyerdahl",
+    "genre": "Macera",
+    "description": "Gerçek bir keşif hikâyesi olup Pasifik Okyanusu’nda sal ile yapılan tehlikeli yolculuğu anlatır."
+  },
+  {
+    "id": 199,
+    "title": "Gizemli Adaya Yolculuk",
+    "author": "Jules Verne",
+    "genre": "Macera",
+    "description": "Bir grubun terk edilmiş gizemli bir adada verdiği hayatta kalma mücadelesini konu alır."
+  },
+  {
+    "id": 200,
+    "title": "Siyah Kuğu",
+    "author": "Taleb & Ekibi",
+    "genre": "Macera",
+    "description": "Nadir ve öngörülemez olayların birey ve toplum üzerindeki etkisini çarpıcı bir dille anlatır."
+  }
+]

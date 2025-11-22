@@ -13,12 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.elo.libra.viewmodel.BookViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.material.icons.filled.ChatBubble
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(navController: NavHostController) {
 
-    val viewModel = BookViewModel()
+    val viewModel: BookViewModel = viewModel()
     val books = viewModel.books
 
     LaunchedEffect(true) {
@@ -30,10 +32,18 @@ fun HomeScreen(navController: NavHostController) {
             CenterAlignedTopAppBar(
                 title = { Text("Libra") },
                 actions = {
+                    // Profil ikonu
                     IconButton(onClick = {
                         navController.navigate("profile")
                     }) {
                         Icon(Icons.Default.Person, contentDescription = "Profil")
+                    }
+
+                    // Chatbot ikonu
+                    IconButton(onClick = {
+                        navController.navigate("chatbot")
+                    }) {
+                        Icon(Icons.Default.ChatBubble, contentDescription = "Chatbot")
                     }
                 }
             )

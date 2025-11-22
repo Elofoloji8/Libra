@@ -41,5 +41,8 @@ fun AppNavGraph(navController: NavHostController) {
         composable("addbook") {
             AddBookScreen(navController)
         }
+        composable("chatbot") {
+            ChatbotScreen(navController)
+        }
     }
 }
