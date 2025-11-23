@@ -10,6 +10,7 @@ import com.elo.libra.ui.home.HomeScreen
 import com.elo.libra.ui.profile.ProfileScreen
 import com.elo.libra.ui.chatbot.ChatbotScreen
 import com.elo.libra.ui.addbook.AddBookScreen
+import com.elo.libra.ui.edit.EditBookScreen
 
 @Composable
 fun AppNavGraph(navController: NavHostController) {
@@ -43,6 +44,10 @@ fun AppNavGraph(navController: NavHostController) {
         }
         composable("chatbot") {
             ChatbotScreen(navController)
+        }
+        composable("editbook/{id}") { backStack ->
+            val bookId = backStack.arguments?.getString("id") ?: ""
+            EditBookScreen(bookId = bookId, navController = navController)
         }
     }
 }
