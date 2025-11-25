@@ -34,7 +34,7 @@ fun EditBookScreen(bookId: String, navController: NavHostController) {
         "Dram", "Klasik", "Kişisel Gelişim", "Tarih"
     )
 
-    // 🔹 Kitap bilgilerini yükle
+    // Kitabı yükle
     LaunchedEffect(bookId) {
         val book = viewModel.getBookById(bookId)
         if (book != null) {
@@ -49,11 +49,7 @@ fun EditBookScreen(bookId: String, navController: NavHostController) {
             CenterAlignedTopAppBar(title = { Text("Kitabı Düzenle") })
         },
         snackbarHost = {
-            SnackbarHost(
-                hostState = snackbarHostState,
-                modifier = Modifier
-                    .padding(16.dp)
-            )
+            SnackbarHost(hostState = snackbarHostState)
         }
     ) { padding ->
         Column(
@@ -61,8 +57,7 @@ fun EditBookScreen(bookId: String, navController: NavHostController) {
                 .fillMaxSize()
                 .padding(padding)
                 .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
+            verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             OutlinedTextField(
                 value = title,
@@ -78,14 +73,9 @@ fun EditBookScreen(bookId: String, navController: NavHostController) {
                 modifier = Modifier.fillMaxWidth()
             )
 
-            Text(
-                text = "Tür Seçin",
-                style = MaterialTheme.typography.titleMedium,
-                modifier = Modifier.align(Alignment.Start)
-            )
+            Text("Tür Seçin", style = MaterialTheme.typography.titleMedium)
 
             FlowRow(
-                modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
@@ -95,10 +85,8 @@ fun EditBookScreen(bookId: String, navController: NavHostController) {
                         modifier = Modifier
                             .clip(RoundedCornerShape(20.dp))
                             .background(
-                                if (isSelected)
-                                    MaterialTheme.colorScheme.primary
-                                else
-                                    MaterialTheme.colorScheme.surfaceVariant
+                                if (isSelected) MaterialTheme.colorScheme.primary
+                                else MaterialTheme.colorScheme.surfaceVariant
                             )
                             .clickable { selectedGenre = genre }
                             .padding(horizontal = 16.dp, vertical = 8.dp)
@@ -113,55 +101,47 @@ fun EditBookScreen(bookId: String, navController: NavHostController) {
 
             Spacer(Modifier.height(24.dp))
 
-            Row(
+            Button(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                Button(
-                    onClick = {
-                        if (title.isNotBlank() && author.isNotBlank() && selectedGenre.isNotBlank()) {
-                            val updatedBook = Book(
-                                id = bookId,
-                                title = title,
-                                author = author,
-                                genre = selectedGenre
-                            )
+                onClick = {
+                    if (title.isNotBlank() && author.isNotBlank() && selectedGenre.isNotBlank()) {
 
-                            scope.launch {
-                                viewModel.updateBook(updatedBook) { success ->
-                                    // callback suspend değil, bu yüzden ayrı bir coroutine içinde çağırıyoruz
-                                    scope.launch {
-                                        if (success) {
-                                            snackbarHostState.showSnackbar(
-                                                message = "✅ Kitap başarıyla güncellendi",
-                                                duration = SnackbarDuration.Short
-                                            )
-                                            delay(1500)
-                                            navController.navigate("home") {
-                                                popUpTo("home") { inclusive = true }
-                                            }
-                                        } else {
-                                            snackbarHostState.showSnackbar(
-                                                message = "❌ Güncelleme başarısız!",
-                                                duration = SnackbarDuration.Short
-                                            )
+                        val updatedBook = Book(
+                            id = bookId,
+                            title = title,
+                            author = author,
+                            genre = selectedGenre
+                        )
+
+                        scope.launch {
+                            viewModel.updateBook(updatedBook) { success ->
+
+                                // 🔹 Callback içinde SUSPEND kullanabilmek için yeni launch açıyoruz
+                                scope.launch {
+
+                                    if (success) {
+                                        snackbarHostState.showSnackbar(
+                                            message = "📚 Kitap başarıyla güncellendi!"
+                                        )
+
+                                        delay(1200)
+
+                                        navController.navigate("home") {
+                                            popUpTo("home") { inclusive = true }
                                         }
+
+                                    } else {
+                                        snackbarHostState.showSnackbar(
+                                            message = "❌ Güncelleme başarısız!"
+                                        )
                                     }
                                 }
                             }
                         }
-                    },
-                    modifier = Modifier.weight(1f)
-                ) {
-                    Text("Kaydet")
+                    }
                 }
-
-                OutlinedButton(
-                    onClick = { navController.popBackStack() },
-                    modifier = Modifier.weight(1f)
-                ) {
-                    Text("İptal")
-                }
+            ) {
+                Text("Kaydet")
             }
         }
     }

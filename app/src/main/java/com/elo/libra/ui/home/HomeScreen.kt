@@ -1,6 +1,7 @@
 package com.elo.libra.ui.home
 
-import androidx.compose.animation.core.*
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -24,20 +25,22 @@ import com.elo.libra.R
 import com.elo.libra.data.model.Book
 import com.elo.libra.viewmodel.BookViewModel
 import kotlinx.coroutines.launch
-import android.util.Log
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(navController: NavHostController) {
     val viewModel: BookViewModel = viewModel()
     val books = viewModel.books
+    var selectedCategory by remember { mutableStateOf<String?>(null) }
+
     val scope = rememberCoroutineScope()
+    val scale = remember { Animatable(1f) }
+    val snackbarHostState = remember { SnackbarHostState() }
 
     LaunchedEffect(Unit) { viewModel.loadBooks() }
 
-    val scale = remember { Animatable(1f) }
-
     Scaffold(
+        snackbarHost = { SnackbarHost(snackbarHostState) },
         bottomBar = {
             NavigationBar(containerColor = MaterialTheme.colorScheme.surface) {
                 NavigationBarItem(
@@ -51,19 +54,19 @@ fun HomeScreen(navController: NavHostController) {
                     selected = false,
                     onClick = {
                         scope.launch {
-                            scale.animateTo(1.2f, animationSpec = tween(150))
-                            scale.animateTo(1f, animationSpec = tween(150))
-                            navController.navigate("addbook")
+                            scale.animateTo(1.2f, tween(150))
+                            scale.animateTo(1f, tween(150))
                         }
+                        navController.navigate("addbook")
                     },
                     icon = {
                         FloatingActionButton(
                             onClick = {
                                 scope.launch {
-                                    scale.animateTo(1.2f, animationSpec = tween(150))
-                                    scale.animateTo(1f, animationSpec = tween(150))
-                                    navController.navigate("addbook")
+                                    scale.animateTo(1.2f, tween(150))
+                                    scale.animateTo(1f, tween(150))
                                 }
+                                navController.navigate("addbook")
                             },
                             containerColor = MaterialTheme.colorScheme.primary,
                             modifier = Modifier.scale(scale.value)
@@ -71,13 +74,13 @@ fun HomeScreen(navController: NavHostController) {
                             Icon(Icons.Default.Add, contentDescription = "Kitap Ekle")
                         }
                     },
-                    label = { Text("") }
+                    label = {}
                 )
 
                 NavigationBarItem(
                     selected = false,
                     onClick = { navController.navigate("chatbot") },
-                    icon = { Icon(Icons.Default.ChatBubble, contentDescription = "Chatbot") },
+                    icon = { Icon(Icons.Default.ChatBubble, contentDescription = "Asistan") },
                     label = { Text("Asistan") }
                 )
             }
@@ -96,14 +99,74 @@ fun HomeScreen(navController: NavHostController) {
                 .fillMaxSize()
                 .background(gradient)
         ) {
+            // ------------------- KATEGORİ BUTONLARI -------------------
+            FlowRow(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(12.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                categories.forEach { category ->
+
+                    AssistChip(
+                        onClick = {
+                            val newCategory =
+                                if (selectedCategory == category.key) null else category.key
+
+                            selectedCategory = newCategory
+
+                            if (newCategory != null) {
+                                val relatedBooks = books.filter { book ->
+                                    book.genre.lowercase().replace("ı", "i") ==
+                                            newCategory.lowercase().replace("ı", "i")
+                                }
+
+                                if (relatedBooks.isEmpty()) {
+                                    scope.launch {
+                                        snackbarHostState.showSnackbar(
+                                            "‘${category.name}’ kategorisinde kitap bulunamadı."
+                                        )
+                                    }
+                                }
+                            }
+                        },
+                        label = { Text(category.name) },
+                        leadingIcon = { Icon(category.icon, contentDescription = null) },
+                        colors = AssistChipDefaults.assistChipColors(
+                            containerColor =
+                                if (selectedCategory == category.key)
+                                    category.color
+                                else
+                                    MaterialTheme.colorScheme.surfaceVariant,
+                            labelColor =
+                                if (selectedCategory == category.key)
+                                    Color.Black
+                                else
+                                    MaterialTheme.colorScheme.onSurface,
+                        )
+                    )
+                }
+            }
+
             Text(
                 text = "📚 Kitaplarım",
                 style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
-                modifier = Modifier.padding(16.dp)
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
             )
 
+            // ------------------- FİLTRELENMİŞ KİTAPLAR -------------------
+            val filteredBooks =
+                if (selectedCategory == null) books
+                else books.filter { book ->
+                    book.genre.lowercase().replace("ı", "i") ==
+                            selectedCategory!!.lowercase().replace("ı", "i")
+                }
+
             if (viewModel.loading.value) {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                Box(
+                    Modifier.fillMaxSize(),
+                    contentAlignment = Alignment.Center
+                ) {
                     CircularProgressIndicator()
                 }
             } else {
@@ -112,23 +175,18 @@ fun HomeScreen(navController: NavHostController) {
                     contentPadding = PaddingValues(12.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    items(books) { book ->
-                        // ✅ Null ID korumalı çağrı
+                    items(filteredBooks) { book ->
                         val safeId = book.id ?: ""
                         BookCard(
                             book = book,
                             onEdit = {
                                 if (safeId.isNotEmpty()) {
                                     navController.navigate("editbook/$safeId")
-                                } else {
-                                    Log.e("HomeScreen", "Book ID boş, düzenlenemiyor.")
                                 }
                             },
                             onDelete = {
                                 if (safeId.isNotEmpty()) {
                                     viewModel.deleteBook(safeId)
-                                } else {
-                                    Log.e("HomeScreen", "Book ID boş, silinemiyor.")
                                 }
                             }
                         )
@@ -150,8 +208,7 @@ fun BookCard(
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .heightIn(min = 100.dp)
-            .padding(horizontal = 8.dp),
+            .heightIn(min = 100.dp),
         elevation = CardDefaults.cardElevation(6.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
@@ -163,13 +220,15 @@ fun BookCard(
         ) {
             Image(
                 painter = painterResource(id = R.drawable.ic_book_placeholder),
-                contentDescription = "Book Image",
+                contentDescription = "Kitap",
                 modifier = Modifier
                     .size(60.dp)
                     .padding(end = 12.dp)
             )
 
-            Column(Modifier.weight(1f)) {
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
                 Text(book.title, style = MaterialTheme.typography.titleMedium)
                 Text(book.author, style = MaterialTheme.typography.bodyMedium)
                 Text(
@@ -179,10 +238,9 @@ fun BookCard(
                 )
             }
 
-            // ⋮ Menü
             Box {
                 IconButton(onClick = { menuExpanded = true }) {
-                    Icon(Icons.Default.MoreVert, contentDescription = "Menü")
+                    Icon(Icons.Default.MoreVert, contentDescription = null)
                 }
                 DropdownMenu(
                     expanded = menuExpanded,
