@@ -58,6 +58,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-database-ktx")
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
 
     implementation("androidx.navigation:navigation-compose:2.7.4")
 
