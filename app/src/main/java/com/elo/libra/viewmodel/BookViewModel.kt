@@ -1,6 +1,8 @@
 package com.elo.libra.viewmodel
 
+
 import android.content.Context
+
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.datastore.preferences.core.edit
@@ -17,8 +19,13 @@ import kotlinx.coroutines.launch
 private val Context.bookDataStore by preferencesDataStore(name = "book_stats")
 
 class BookViewModel(
+    application: Application,
     private val repo: BookRepository = BookRepository()
-) : ViewModel() {
+) : AndroidViewModel(application) {
+
+    // 🔹 DataStore referansı
+    private val dataStore = application.bookDataStore
+    private val TOTAL_ADDED_KEY = intPreferencesKey("total_added_books")
 
     private val TOTAL_ADDED_KEY = intPreferencesKey("total_added_books")
 
