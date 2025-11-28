@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.elo.libra.data.model.Book
@@ -13,6 +14,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun AddBookScreen(navController: NavHostController) {
 
+    val context = LocalContext.current
     val viewModel: BookViewModel = viewModel()
 
     var title by remember { mutableStateOf("") }
@@ -53,7 +55,7 @@ fun AddBookScreen(navController: NavHostController) {
                     description = description
                 )
 
-                viewModel.addBook(book) {
+                viewModel.addBook(book, context) {
                     navController.popBackStack()
                 }
             }) {
